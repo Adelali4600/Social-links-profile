@@ -1,1 +1,1 @@
-![social-links-profile-screenshot](social-links-profile-main/Screenshot.jpeg)
+![social-links-profile-screenshot](./Screenshot.jpeg)
