@@ -1,0 +1,94 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --fs: 14px;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: var(--Grey-900);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: var(--fw-400);
+}
+
+img {
+    display: block;
+    width: 6em;
+    margin: auto;
+    margin-bottom: 1.5em;
+    color: #ff0000;
+    border-radius: 50%;
+
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: .5em;
+}
+
+.location {
+    color: var(--Green);
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+p {
+    font-size: var(--fs);
+}
+
+.social-links {
+    margin-top: 1.3rem;
+}
+
+li {
+    margin: 1rem;
+    display: block;
+    padding: .7rem;
+    border-radius: .3rem;
+    background: var(--Grey-700);
+    cursor: pointer;
+    transition: background .5s ease-in-out, color .3s ease;
+}
+
+li:hover {
+    color: #000000;
+    background-color: var(--Green);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 25em;
+    padding: 1.75rem;
+    background: var(--Grey-800);
+    border-radius: 2em;
+}
